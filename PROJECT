@@ -1,0 +1,9 @@
+domain: cernauskas.com
+layout: go.kubebuilder.io/v3
+multigroup: true
+projectName: memcached-operator
+repo: github.com/F28956/memcached-operator
+version: 3-alpha
+plugins:
+  manifests.sdk.operatorframework.io/v2: {}
+  scorecard.sdk.operatorframework.io/v2: {}
