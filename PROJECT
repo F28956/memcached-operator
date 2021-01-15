@@ -3,6 +3,11 @@ layout: go.kubebuilder.io/v3
 multigroup: true
 projectName: memcached-operator
 repo: github.com/F28956/memcached-operator
+resources:
+- crdVersion: v1
+  group: cache
+  kind: Memcached
+  version: v1alpha1
 version: 3-alpha
 plugins:
   manifests.sdk.operatorframework.io/v2: {}
